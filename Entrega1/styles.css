@@ -1,0 +1,58 @@
+:root {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
+  color: #222;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #f6f8fa;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 92%;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: 22px;
+}
+
+h2 {
+  margin: 6px 0;
+  font-size: 18px;
+  color: #444;
+}
+
+h3 {
+  margin: 6px 0 18px;
+  font-size: 16px;
+  color: #666;
+}
+
+.meta {
+  font-size: 14px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+li {
+  margin: 4px 0;
+}
+.links {
+  margin-top: 16px;
+}
